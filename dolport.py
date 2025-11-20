@@ -1,4 +1,3 @@
-# Import colorama for text color (Optional, if you want colored output)
 from colorama import Fore, Style, init
 init()
 
@@ -9,7 +8,7 @@ print(Fore.YELLOW + Style.BRIGHT + r"""
  | | | |/ _ \| __| | |_) / _ \| '__| __|
  | |_| | (_) | |_  |  __/ (_) | |  | |_ 
  |____/ \___/ \__| |_|   \___/|_|   \__|
-           DOLPORT v1.0 by Soham
+           DOLPORT v2.0 by Soham
 """ + Style.RESET_ALL)
 
 # Example code for port scanning
